@@ -1,0 +1,150 @@
+.whole_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+}
+
+.outer_circle {
+    background-color: rgb(200, 200, 224);
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: 10px double black;
+}
+
+.inner_circle1 {
+    border: 3px solid black;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-top: 18%;
+    margin-left: 19%;
+}
+
+.inner_circle2 {
+    background-color: brown;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    margin-top: 18%;
+    margin-left: 19.5%;
+    border: 2px solid black;
+    animation-name: onoff;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+.blade1 {
+    background-color: black;
+    width: 80px;
+    height: 15px;
+    border-top-right-radius: 50px;
+    margin-left: 100%;
+    margin-top: 40%;
+}
+
+.blade2 {
+    background-color: black;
+    width: 80px;
+    height: 15px;
+    border-top-left-radius: 50px;
+    margin-left: -90%;
+    margin-top: -13%;
+}
+
+.blade3 {
+    background-color: black;
+    height: 80px;
+    width: 15px;
+    border-bottom-left-radius: 50px;
+    margin-top: 40%;
+    margin-left: 43%;
+}
+
+.blade4 {
+    background-color: black;
+    height: 78px;
+    width: 15px;
+    border-top-left-radius: 50px;
+    margin-top: -276%;
+    margin-left: 43%;
+}
+
+.sub_body {
+    margin-left: -15px;
+}
+
+.handle {
+    background-color: black;
+    width: 20px;
+    height: 90px;
+    margin-top: -2px;
+    margin-left: 110px;
+}
+
+.button_handle {
+    width: 35px;
+    height: 80px;
+    background-color: black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-left: 103px;
+    margin-top: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1 {
+    background-color: rgb(200, 200, 224);
+    height: 17px;
+    width: 17px;
+    border-radius: 100%;
+}
+
+.base_handle {
+    background-color: black;
+    width: 20px;
+    height: 40px;
+    margin-top: -2px;
+    margin-left: 111px;
+}
+
+.base1 {
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    margin-top: -3px;
+    margin-left: 106px;
+    border-radius: 100%;
+}
+
+.base2 {
+    background-color: black;
+    width: 20px;
+    height: 30px;
+    margin-top: -3px;
+    margin-left: 111px;
+}
+
+.final_base {
+    width: 180px;
+    height: 30px;
+    background-color: black;
+    margin-left: 32px;
+}
+
+@keyframes onoff {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
